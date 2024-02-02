@@ -1,0 +1,8 @@
+Crucible Data Platform website
+
+This a Hugo website for Crucible 
+
+/export is the exported static site from Crucible.bsdesign created in Bootstrap Studio
+/content is where markdown pages live
+/themes/crucible is the Hugo theme based off of the /export site
+    currently index.html and about.html are fully defined by template html rather than content md
