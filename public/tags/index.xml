@@ -1,54 +1,54 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on My New Hugo Site</title>
-    <link>https://example.org/tags/</link>
-    <description>Recent content in Tags on My New Hugo Site</description>
+    <title>Tags on Crucible Data Platform</title>
+    <link>https://crucible.lbl.gov/tags/</link>
+    <description>Recent content in Tags on Crucible Data Platform</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 15 Mar 2023 11:00:00 -0700</lastBuildDate><atom:link href="https://example.org/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 15 Mar 2023 11:00:00 -0700</lastBuildDate><atom:link href="https://crucible.lbl.gov/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>blue</title>
-      <link>https://example.org/tags/blue/</link>
+      <link>https://crucible.lbl.gov/tags/blue/</link>
       <pubDate>Wed, 15 Mar 2023 11:00:00 -0700</pubDate>
       
-      <guid>https://example.org/tags/blue/</guid>
+      <guid>https://crucible.lbl.gov/tags/blue/</guid>
       <description></description>
     </item>
     
     <item>
       <title>green</title>
-      <link>https://example.org/tags/green/</link>
+      <link>https://crucible.lbl.gov/tags/green/</link>
       <pubDate>Wed, 15 Mar 2023 11:00:00 -0700</pubDate>
       
-      <guid>https://example.org/tags/green/</guid>
+      <guid>https://crucible.lbl.gov/tags/green/</guid>
       <description></description>
     </item>
     
     <item>
       <title>red</title>
-      <link>https://example.org/tags/red/</link>
+      <link>https://crucible.lbl.gov/tags/red/</link>
       <pubDate>Wed, 15 Mar 2023 11:00:00 -0700</pubDate>
       
-      <guid>https://example.org/tags/red/</guid>
+      <guid>https://crucible.lbl.gov/tags/red/</guid>
       <description></description>
     </item>
     
     <item>
       <title>hip_microscope</title>
-      <link>https://example.org/tags/hip_microscope/</link>
+      <link>https://crucible.lbl.gov/tags/hip_microscope/</link>
       <pubDate>Sun, 15 Jan 2023 09:00:00 -0700</pubDate>
       
-      <guid>https://example.org/tags/hip_microscope/</guid>
+      <guid>https://crucible.lbl.gov/tags/hip_microscope/</guid>
       <description></description>
     </item>
     
     <item>
       <title>hyperspectral</title>
-      <link>https://example.org/tags/hyperspectral/</link>
+      <link>https://crucible.lbl.gov/tags/hyperspectral/</link>
       <pubDate>Sun, 15 Jan 2023 09:00:00 -0700</pubDate>
       
-      <guid>https://example.org/tags/hyperspectral/</guid>
+      <guid>https://crucible.lbl.gov/tags/hyperspectral/</guid>
       <description></description>
     </item>
     
