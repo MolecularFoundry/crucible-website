@@ -1,5 +1,6 @@
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
 <title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ printf "%s | %s" .Title site.Title }}{{ end }}</title>
+<link rel="icon" type="image/png" sizes="256x256" href="/assets/img/logo-256-white.png">
 {{ partialCached "head/css.html" . }}
 {{ partialCached "head/js.html" . }}
