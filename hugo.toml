@@ -2,3 +2,9 @@ baseURL = 'https://crucible.lbl.gov/'
 languageCode = 'en-us'
 title = 'Crucible Data Platform'
 theme = 'crucible'
+
+[markup.goldmark.renderer]
+unsafe= true
+
+[markup.goldmark.parser.attribute]
+block = true
