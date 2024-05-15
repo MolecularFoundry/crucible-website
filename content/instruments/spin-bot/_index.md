@@ -1,7 +1,7 @@
 +++
 title = 'SpinBot'
 Summary = 'Robotic Spin-coating synthesis platform'
-header_image = "/instruments/spinbot/spinbot_overview.png"
+header_image = "/instruments/spin-bot/spinbot_overview.png"
 
 +++
 
