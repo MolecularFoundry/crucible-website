@@ -35,24 +35,26 @@ data-bs-theme="light">
           <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
           <li class="nav-item dropdown"><a class="dropdown-toggle nav-link" aria-expanded="false" data-bs-toggle="dropdown" href="#">Services</a>
             <div class="dropdown-menu">
-              <a class="dropdown-item" href="https://boysenberry.dhcp.lbl.gov:5000/upload_small">Data Upload</a>
+              
               <a class="dropdown-item" href="https://boysenberry.dhcp.lbl.gov:5000/manage_data">Manage Data</a>
               <a class="dropdown-item" href="https://mf-scicat.lbl.gov">SciCat Data Catalog</a>
-              <a class="dropdown-item" href="/dash/">Data Explorers</a>
+              <a class="dropdown-item" href="https://crucible.lbl.gov/dash/">Data Explorers</a>
               <a class="dropdown-item" href="/analysis/">Data Analysis Workflows</a>
               <a class="dropdown-item" href="/hpc/">HPC</a>
               <a class="dropdown-item" href="/instruments/">Instruments</a>
             </div>
           </li>
           <li class="nav-item dropdown"><a class="dropdown-toggle nav-link" aria-expanded="false" data-bs-toggle="dropdown" href="#">Software</a>
-            <div class="dropdown-menu"><a class="dropdown-item" href="https://github.com/MolecularFoundry/">GitHub Project</a><a class="dropdown-item" href="http://www.scopefoundry.org">ScopeFoundry</a></div>
-          </li>
-          
-          <li class="nav-item"><a class="nav-link" href="/about">About</a></li>
-        </ul>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="https://github.com/MolecularFoundry/">GitHub Project</a>
+              <a class="dropdown-item" href="http://www.scopefoundry.org">ScopeFoundry</a></div>
+            </li>
+            
+            <li class="nav-item"><a class="nav-link" href="/about">About</a></li>
+          </ul>
+        </div>
       </div>
-    </div>
-  </nav>  
+    </nav>  
   <main class="page">
     
   
@@ -73,8 +75,13 @@ data-bs-theme="light">
             </div>
             <div class="col d-md-flex align-items-md-center">
                 <div style="max-width: 350px;">
-                    <h2 class="text-uppercase fw-bold">Upload Your Data</h2>
-                    <p class="my-3">As instruments are connected to Crucible, data will be automatically uploaded and tagged with your user and proposal information. To directly&nbsp;upload or claim unclaimed data, use the Data Uploader.</p><a class="btn btn-primary btn-lg me-2" role="button" href="https://boysenberry.dhcp.lbl.gov:5000/upload_small">Upload</a><a class="btn btn-outline-primary btn-lg" role="button" href="https://boysenberry.dhcp.lbl.gov:5000/manage_data">Claim Data</a>
+                    <h2 class="text-uppercase fw-bold">Claim Your Data</h2>
+                    <p class="my-3">
+                        As instruments are connected to Crucible, data will be automatically uploaded and tagged with your user and proposal information. 
+                        To claim data not associated with you or your proposal, use the Data Claim system.
+                    </p>
+                    
+                    <a class="btn btn-outline-primary btn-lg" role="button" href="https://boysenberry.dhcp.lbl.gov:5000/manage_data">Claim Data</a>
                 </div>
             </div>
         </div>
@@ -85,7 +92,7 @@ data-bs-theme="light">
                 <div style="max-width: 350px;">
                     <h2 class="text-uppercase fw-bold">SciCat Data Catalog</h2>
                     <p class="my-3">Searchable data catalog of Crucible datasets</p>
-                    <a class="btn btn-primary btn-lg me-2" role="button" href="https://mf-scicat-testenv.lbl.gov/">SciCat</a>
+                    <a class="btn btn-primary btn-lg me-2" role="button" href="https://mf-scicat.lbl.gov/">SciCat</a>
                 </div>
             </div>
             <div class="col-md-6">
@@ -101,7 +108,8 @@ data-bs-theme="light">
             <div class="col-md-6 d-md-flex align-items-md-center">
                 <div style="max-width: 350px;">
                     <h2 class="text-uppercase fw-bold">Data Explorers</h2>
-                    <p class="my-3">Interactive web-based viewers for datasets in Crucible. Including Hyperspectral Data explorers.</p><a class="btn btn-primary btn-lg me-2" role="button" href="https://boysenberry.dhcp.lbl.gov:5000/authorize_user">Explore</a>
+                    <p class="my-3">Interactive web-based viewers for datasets in Crucible. Including Hyperspectral Data explorers.</p>
+                    <a class="btn btn-primary btn-lg me-2" role="button" href="/dash">Explore</a>
                 </div>
             </div>
         </div>
@@ -110,12 +118,13 @@ data-bs-theme="light">
         <div class="row gy-4 gy-md-0">
             <div class="col-md-6 text-center text-md-start d-flex d-sm-flex d-md-flex justify-content-center align-items-center justify-content-md-start align-items-md-center justify-content-xl-center">
                 <div style="max-width: 350px;">
-                    <h2 class="text-uppercase fw-bold">Data Analysis WorKFLOWS</h2>
+                    <h2 class="text-uppercase fw-bold">Data Analysis Workflows</h2>
                     <p class="my-3">Notebook-based interactive data analysis workflows hosted on Google CoLab with data automatically uploaded to Google Drive.</p><a class="btn btn-primary btn-lg me-2" role="button" href="analysis.html">Find a Workflow</a>
                 </div>
             </div>
             <div class="col-md-6">
-                <div class="p-xl-5 m-xl-5"><img class="rounded img-fluid w-100 fit-cover" style="min-height: 300px;" src="assets/img/workflows-logo.png"></div>
+                <div class="p-xl-5 m-xl-5"><img class="rounded img-fluid w-100 fit-cover" style="min-height: 300px;" src="assets/img/workflows-logo.png">
+                </div>
             </div>
         </div>
     </div>
@@ -127,11 +136,29 @@ data-bs-theme="light">
             <div class="col-md-6 d-md-flex align-items-md-center">
                 <div style="max-width: 350px;">
                     <h2 class="text-uppercase fw-bold">ScopeFoundry</h2>
-                    <p class="my-3">ScopeFoundry Python platform for controlling custom laboratory experiments, currently running over dozens of scientific instruments at the Molecular Foundry and beyond. <strong>Automatic Upload to Crucible </strong>plug-in available.</p><a class="btn btn-primary btn-lg me-2" role="button" href="http://www.scopefoundry.org">Info</a><a class="btn btn-outline-primary btn-lg" role="button" href="#">ScopeFoundry Site</a>
+                    <p class="my-3">ScopeFoundry Python platform for controlling custom laboratory experiments, currently running over dozens of scientific instruments at the Molecular Foundry and beyond. <strong>Automatic Upload to Crucible </strong>plug-in available.</p><a class="btn btn-primary btn-lg me-2" role="button" href="http://www.scopefoundry.org">Info</a><a class="btn btn-outline-primary btn-lg" role="button" href="http://www.scopefoundry.org">ScopeFoundry Site</a>
                 </div>
             </div>
         </div>
     </div>
+
+    <div class="container py-4 py-xl-5">
+        <div class="row gy-4 gy-md-0">
+            <div class="col-md-6 text-center text-md-start d-flex d-sm-flex d-md-flex justify-content-center align-items-center justify-content-md-start align-items-md-center justify-content-xl-center">
+                <div style="max-width: 350px;">
+                    <h2 class="text-uppercase fw-bold">Instruments</h2>
+                    <p class="my-3">Scientific instruments at the Molecular connected to the Crucible data platform </p>
+                    <a class="btn btn-primary btn-lg me-2" role="button" href="/instruments/">Instruments</a>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="p-xl-5 m-xl-5">
+                    <img class="rounded img-fluid w-100 fit-cover" style="min-height: 300px;padding: 83px;" src="/assets/img/scopefoundry_logo2_1024.png" width="300px">
+                </div>
+            </div>            
+        </div>
+    </div>
+
     <div class="text-white bg-primary border rounded border-0 p-4 py-5" style="background: var(--bs-info);">
         <div class="row h-100">
             <div class="col-md-10 col-xl-8 text-center d-flex d-sm-flex d-md-flex justify-content-center align-items-center mx-auto justify-content-md-start align-items-md-center justify-content-xl-center">
@@ -142,6 +169,7 @@ data-bs-theme="light">
             </div>
         </div>
     </div>
+    
     <section>
         <div class="text-center p-4 p-lg-5">
             <p class="fw-bold text-primary mb-2">Crucible is a data service for users the <a href="https://foundry.lbl.gov">Molecular Foundry</a>, as DOE-funded User Facility</p>

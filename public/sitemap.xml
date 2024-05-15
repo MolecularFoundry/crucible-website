@@ -54,5 +54,11 @@
     <loc>https://crucible.lbl.gov/instruments/hip_microscope/</loc>
   </url><url>
     <loc>https://crucible.lbl.gov/hpc/</loc>
+  </url><url>
+    <loc>https://crucible.lbl.gov/instruments/spinbot/</loc>
+  </url><url>
+    <loc>https://crucible.lbl.gov/instruments/supracl/</loc>
+  </url><url>
+    <loc>https://crucible.lbl.gov/instruments/titanx/</loc>
   </url>
 </urlset>
