@@ -13,7 +13,7 @@ header_image = "/instruments/bioglow/image-1.png"
 
 ## Science
 
-All cells spontaneously release extremely low levels of light, a phenomenon known as Ultra-Weak Photon Emission (UPE). These photons are byproducts of excited Reactive Oxygen Species (ROS), themselves byproducts of cellular metabolism. As such, the intensity of emission is tied to the cell’s metabolic state, meaning UPE could facilitate previously unknown light-based signalling pathways. However, study of UPE is made challenging because of the low intensities – 1-1000 photons per second per cm<sup>2</sup>. 
+All cells spontaneously release extremely low levels of light, a phenomenon known as Ultra-Weak Photon Emission (UPE). These photons are byproducts of excited Reactive Oxygen Species (ROS), themselves byproducts of cellular metabolism. As such, the intensity of emission is tied to the cell’s metabolic state, meaning UPE could facilitate previously unknown light-based signalling pathways. However, study of UPE is made challenging because of the low intensities: 1--1000 photons per second per cm<sup>2</sup>. 
 
 ## Hardware
 
@@ -59,13 +59,19 @@ ScopeFoundry measurement to visualize count rates
 
 ### BioGlow Spectral Collection
 
-`bio_glow_spec`
+`bioglow_spec`
 
 Loops through up to 4 sample positions, 11 spectral windows and collects photons on both PMTs for a set amount of time for each sample and spectral "block". Output file is an HDF5 file that stores both time-stamped count rates  as well as raw MultiHarp T2 style photon event records for each block. Each block is addtionally saved as its own HDF5 file for backup.
 
 ![alt text](image-3.png)
 
 ## Processing and Analysis
+
+### BioGlow Spectral datasets in Crucible
+
+`bioglow_spec` datasets are automatically ingested into [Crucible](https://crucible.lbl.gov) and can be viewed on [SciCat](https://mf-scicat.lbl.gov) or accessed via Google Drive.
+
+![alt text](scicat-screenshot.png)
 
 ### Automated Crucible event record parsing
 
