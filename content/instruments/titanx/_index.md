@@ -28,3 +28,10 @@ Windows 10
 
 ### Crucible Login
 
+## Processing and Analysis 
+
+### DM4 files in Crucible
+
+`DM4` STEM datasets are automatically ingested into [Crucible](https://crucible.lbl.gov) and can be viewed on [SciCat](https://mf-scicat.lbl.gov) or accessed via Google Drive.
+
+![alt text](DM4_scicat_screenshot.png)
