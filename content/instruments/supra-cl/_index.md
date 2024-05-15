@@ -1,7 +1,7 @@
 +++
 title = 'SupraCL'
 Summary = "Custom Cathodoluminescence (CL) Scanning Electron Microscope (SEM)"
-header_image = "/instruments/SupraCL/supracl-photo.png"
+header_image = "/instruments/supra-cl/supracl-photo.png"
 +++
 
 # Hardware
