@@ -54,3 +54,12 @@ Same as `hyperspec_mcl_picam` but uses coarse positioner `asi_xyz_stage` to scan
 
 ### Laser Annealing of Qubits
 
+## Processing and Analysis 
+
+Options for processing and analyzing data from the HiP microscope
+
+### Hyperspectral imaging in Crucible
+
+`hyperspec_picam_mcl` datasets are automatically ingested into [Crucible](https://crucible.lbl.gov) and can be viewed on [SciCat](https://mf-scicat.lbl.gov) or accessed via Google Drive.
+
+![alt text](image-1.png)
