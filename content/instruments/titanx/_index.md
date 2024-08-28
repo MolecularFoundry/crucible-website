@@ -1,6 +1,6 @@
 +++
 title = 'TitanX'
-Summary = "Capturing biological Ultra-Weak Photon Emission"
+Summary = "All purpose TEM with EDS capability."
 header_image = "/instruments/titanx/titanx-photo.png"
 +++
 
