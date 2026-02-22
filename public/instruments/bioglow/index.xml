@@ -4,7 +4,8 @@
     <title>BioGlow on Crucible Data Platform</title>
     <link>https://crucible.lbl.gov/instruments/bioglow/</link>
     <description>Recent content in BioGlow on Crucible Data Platform</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://crucible.lbl.gov/instruments/bioglow/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://crucible.lbl.gov/instruments/bioglow/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

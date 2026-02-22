@@ -1,127 +1,89 @@
 {{ define "main" }}
-  <!-- {{ .Content }}
-  {{ range site.RegularPages }}
-    <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
-    {{ .Summary }}
-  {{ end }} -->
-
-  <section class="clean-block clean-hero" style="color: var(--bs-info);background: url(&quot;assets/img/tech/logo-542aea6a-c500-45c0-9006-fdf0187a66d3.webp&quot;), #ffffff;height: 500px;min-height: 500px;">
+  <section class="clean-block clean-hero" style="color: var(--bs-primary);background: url(&quot;assets/img/tech/logo-542aea6a-c500-45c0-9006-fdf0187a66d3.webp&quot;), #ffffff;height: 500px;min-height: 500px;">
     <div class="text">
         <h2>Crucible Data Platform</h2>
         <p style="width: 600px;">
-          <span style="color: rgb(0, 0, 0);">Crucible -- named for the melting pot used in foundries of yore – is a unified data-management and computational system at the Molecular Foundry.</span></p>
-          <a class="btn btn-outline-light btn-lg" role="button" href="/about">Learn More</a>
-          <a class="btn btn-outline-dark btn-lg" role="button" href="https://docs.google.com/presentation/d/11O3K0N0tERoobVWK9QTo_WR_APj2jCeC-aHmD3Ft6Wg/edit?usp=sharing">Demo Slides</a>
+          <span style="color: rgb(0, 0, 0);">Crucible -- named for the melting pot used in foundries of yore -- is a unified data-management and computational system at the Molecular Foundry.</span></p>
+          <a class="btn btn-primary btn-lg" role="button" href="/about">Learn More</a>
+          <a class="btn btn-primary btn-lg" role="button" href="/demos/">Demos</a>
     </div>
-</section>
-<section class="clean-block clean-info dark">
-    <div class="container-sm py-4 py-xl-5">
-        <div class="row gy-4 gy-md-0">
-            <div class="col-md-6">
-                <div class="p-xl-5 m-xl-5"><img class="rounded-circle img-fluid w-100 fit-cover" src="assets/img/logo-542aea6a-c500-45c0-9006-fdf0187a66d3.webp" width="456" height="456" style="padding: 79px;"></div>
-            </div>
-            <div class="col d-md-flex align-items-md-center">
-                <div style="max-width: 350px;">
-                    <h2 class="text-uppercase fw-bold">Claim Your Data</h2>
-                    <p class="my-3">
-                        As instruments are connected to Crucible, data will be automatically uploaded and tagged with your user and proposal information. 
-                        To claim data not associated with you or your proposal, use the Data Claim system.
-                    </p>
-                    <!-- <a class="btn btn-primary btn-lg me-2" role="button" href="https://boysenberry.dhcp.lbl.gov:5000/upload_small">Upload</a> -->
-                    <a class="btn btn-outline-primary btn-lg" role="button" href="https://boysenberry.dhcp.lbl.gov:5000/manage_data">Claim Data</a>
-                </div>
+  </section>
+
+  <section class="clean-block clean-info dark">
+
+    <!-- Graph Explorer - main attraction -->
+    <div class="container py-5">
+        <div class="row align-items-center">
+            <div class="col-md-8 mx-auto text-center">
+                <h2 class="text-uppercase fw-bold">Crucible Graph Explorer</h2>
+                <p class="my-3">Interactive graph-based explorer for browsing and discovering relationships across Crucible datasets.</p>
+                <a class="btn btn-primary btn-lg" role="button" href="https://crucible-graph-explorer-776258882599.us-central1.run.app/">Launch Graph Explorer</a>
             </div>
         </div>
     </div>
-    <div class="container py-4 py-xl-5">
-        <div class="row gy-4 gy-md-0">
-            <div class="col-md-6 text-center text-md-start d-flex d-sm-flex d-md-flex justify-content-center align-items-center justify-content-md-start align-items-md-center justify-content-xl-center">
-                <div style="max-width: 350px;">
-                    <h2 class="text-uppercase fw-bold">SciCat Data Catalog</h2>
-                    <p class="my-3">Searchable data catalog of Crucible datasets</p>
-                    <a class="btn btn-primary btn-lg me-2" role="button" href="https://mf-scicat.lbl.gov/">SciCat</a>
+
+    <!-- Feature cards -->
+    <div class="container py-4">
+        <div class="row g-4 row-cols-1 row-cols-md-2 row-cols-xl-4">
+            <div class="col d-flex">
+                <div class="card h-100 w-100 text-center">
+                    <img class="card-img-top" style="height: 80px; object-fit: contain; padding: 12px;" src="assets/img/logo-542aea6a-c500-45c0-9006-fdf0187a66d3.webp">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">nano-crucible</h5>
+                        <p class="card-text small">Python client for the Crucible Data Platform. Upload, query, and manage your datasets programmatically.</p>
+                        <code class="d-block mb-3 small">pip install nano-crucible</code>
+                        <a class="btn btn-primary btn-sm me-1" role="button" href="https://pypi.org/project/nano-crucible/">PyPI</a>
+                        <a class="btn btn-primary btn-sm" role="button" href="https://github.com/MolecularFoundryCrucible/nano-crucible">GitHub</a>
+                    </div>
                 </div>
             </div>
-            <div class="col-md-6">
-                <div class="p-xl-5 m-xl-5"><img class="img-fluid w-100 fit-cover" src="assets/img/scicat-logo.png" width="456" height="221" style="padding: 27px;"></div>
-            </div>
-        </div>
-    </div>
-    <div class="container py-4 py-xl-5">
-        <div class="row gy-4 gy-md-0">
-            <div class="col-md-6">
-                <div class="p-xl-5 m-xl-5"><img class="w-100 fit-cover" style="min-height: 300px;padding: 83px;" src="assets/img/data-explorer.png"></div>
-            </div>
-            <div class="col-md-6 d-md-flex align-items-md-center">
-                <div style="max-width: 350px;">
-                    <h2 class="text-uppercase fw-bold">Data Explorers</h2>
-                    <p class="my-3">Interactive web-based viewers for datasets in Crucible. Including Hyperspectral Data explorers.</p>
-                    <a class="btn btn-primary btn-lg me-2" role="button" href="https://crucible.lbl.gov/datasets/">Explore</a>
+            <div class="col d-flex">
+                <div class="card h-100 w-100 text-center">
+                    <img class="card-img-top" style="height: 80px; object-fit: contain; padding: 12px;" src="assets/img/data-explorer.png">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">Data Explorers</h5>
+                        <p class="card-text small">Interactive web-based viewers for datasets in Crucible, including Hyperspectral Data explorers.</p>
+                    </div>
                 </div>
             </div>
-        </div>
-    </div>
-    <div class="container py-4 py-xl-5">
-        <div class="row gy-4 gy-md-0">
-            <div class="col-md-6 text-center text-md-start d-flex d-sm-flex d-md-flex justify-content-center align-items-center justify-content-md-start align-items-md-center justify-content-xl-center">
-                <div style="max-width: 350px;">
-                    <h2 class="text-uppercase fw-bold">Data Analysis Workflows</h2>
-                    <p class="my-3">Notebook-based interactive data analysis workflows hosted on Google CoLab with data automatically uploaded to Google Drive.</p><a class="btn btn-primary btn-lg me-2" role="button" href="analysis.html">Find a Workflow</a>
+            <div class="col d-flex">
+                <div class="card h-100 w-100 text-center">
+                    <img class="card-img-top" style="height: 80px; object-fit: contain; padding: 12px;" src="assets/img/workflows-logo.png">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">Data Analysis Workflows</h5>
+                        <p class="card-text small">Notebook-based interactive data analysis workflows hosted on Google CoLab.</p>
+                    </div>
                 </div>
             </div>
-            <div class="col-md-6">
-                <div class="p-xl-5 m-xl-5"><img class="rounded img-fluid w-100 fit-cover" style="min-height: 300px;" src="assets/img/workflows-logo.png">
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="container py-4 py-xl-5">
-        <div class="row gy-4 gy-md-0">
-            <div class="col-md-6">
-                <div class="p-xl-5 m-xl-5"><img class="rounded img-fluid w-100 fit-cover" style="min-height: 300px;padding: 83px;" src="assets/img/scopefoundry_logo2_1024.png" width="300px"></div>
-            </div>
-            <div class="col-md-6 d-md-flex align-items-md-center">
-                <div style="max-width: 350px;">
-                    <h2 class="text-uppercase fw-bold">ScopeFoundry</h2>
-                    <p class="my-3">ScopeFoundry Python platform for controlling custom laboratory experiments, currently running over dozens of scientific instruments at the Molecular Foundry and beyond. <strong>Automatic Upload to Crucible </strong>plug-in available.</p><a class="btn btn-primary btn-lg me-2" role="button" href="http://www.scopefoundry.org">Info</a><a class="btn btn-outline-primary btn-lg" role="button" href="http://www.scopefoundry.org">ScopeFoundry Site</a>
+            <div class="col d-flex">
+                <div class="card h-100 w-100 text-center">
+                    <img class="card-img-top" style="height: 80px; object-fit: contain; padding: 12px;" src="assets/img/scopefoundry_logo2_1024.png">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">ScopeFoundry</h5>
+                        <p class="card-text small">Python platform for controlling custom laboratory experiments. Automatic Upload to Crucible plug-in available.</p>
+                        <a class="btn btn-primary btn-sm" role="button" href="http://www.scopefoundry.org">ScopeFoundry Site</a>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 
-    <div class="container py-4 py-xl-5">
-        <div class="row gy-4 gy-md-0">
-            <div class="col-md-6 text-center text-md-start d-flex d-sm-flex d-md-flex justify-content-center align-items-center justify-content-md-start align-items-md-center justify-content-xl-center">
-                <div style="max-width: 350px;">
-                    <h2 class="text-uppercase fw-bold">Instruments</h2>
-                    <p class="my-3">Scientific instruments at the Molecular connected to the Crucible data platform </p>
-                    <a class="btn btn-primary btn-lg me-2" role="button" href="/instruments/">Instruments</a>
-                </div>
+    <!-- Collaborate With Us - teal band -->
+    <div class="text-white text-center p-5 mt-4" style="background: #1C9AAD;">
+        <h2 class="fw-bold mb-3 text-white">Collaborate With Us</h2>
+        <p class="mb-4">Want to collaborate with us, extend the platform to new use cases, or get integration support? Submit a user proposal through the <a class="text-white text-decoration-underline" href="https://foundry.lbl.gov">Molecular Foundry</a>.</p>
+        <a class="btn btn-light fs-5 py-2 px-4" role="button" href="https://foundry.lbl.gov/user-program/applying-for-access/">Submit a User Proposal</a>
+    </div>
+
+    <!-- HPC ribbon - light -->
+    <div class="py-3 px-4 bg-light border-top border-bottom">
+        <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center">
+            <div class="me-md-3 text-muted">
+                <strong class="text-dark">High Performance Computing</strong> &mdash; Through partnerships with NERSC and Lawrencium, we provide Molecular Foundry users with HPC resources.
             </div>
-            <div class="col-md-6">
-                <div class="p-xl-5 m-xl-5">
-                    <img class="rounded img-fluid w-100 fit-cover" style="min-height: 300px;padding: 83px;" src="/assets/img/scopefoundry_logo2_1024.png" width="300px">
-                </div>
-            </div>            
+            <a class="btn btn-primary btn-sm mt-2 mt-md-0 text-nowrap" href="/hpc/">Learn More</a>
         </div>
     </div>
 
-    <div class="text-white bg-primary border rounded border-0 p-4 py-5" style="background: var(--bs-info);">
-        <div class="row h-100">
-            <div class="col-md-10 col-xl-8 text-center d-flex d-sm-flex d-md-flex justify-content-center align-items-center mx-auto justify-content-md-start align-items-md-center justify-content-xl-center">
-                <div>
-                    <h1 class="text-uppercase fw-bold text-white mb-3">High Performance Computing</h1>
-                    <p class="mb-4">Through a partnership with Department of Energy computing resources at NERSC at LBNL's Lawrencium we can provide Molecular Foundry users with High Performance Computing (HPC) resources for their scientific user projects</p><button class="btn btn-light fs-5 py-2 px-4" type="button">Contact us about HPC Resources</button>
-                </div>
-            </div>
-        </div>
-    </div>
-    
-    <section>
-        <div class="text-center p-4 p-lg-5">
-            <p class="fw-bold text-primary mb-2">Crucible is a data service for users the <a href="https://foundry.lbl.gov">Molecular Foundry</a>, as DOE-funded User Facility</p>
-            <h1 class="fw-bold mb-4">Molecular Foundry</h1><button class="btn btn-primary fs-5 me-2 py-2 px-4" type="button">Become a Foundry User</button>
-        </div>
-    </section>
-</section>
-  {{ end }}
+  </section>
+{{ end }}

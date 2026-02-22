@@ -1,3 +1,50 @@
+/* Crucible color palette overrides */
+:root {
+  --bs-primary: #1C9AAD;
+  --bs-primary-rgb: 28, 154, 173;
+  --bs-info: #1C6CAD;
+  --bs-info-rgb: 28, 108, 173;
+  --bs-link-color: #1C9AAD;
+  --bs-link-color-rgb: 28, 154, 173;
+  --bs-link-hover-color: #167a8a;
+  --bs-link-hover-color-rgb: 22, 122, 138;
+}
+
+.btn-primary {
+  background-color: #1C9AAD;
+  border-color: #1C9AAD;
+  color: #fff;
+}
+.btn-primary:hover {
+  background-color: #167a8a;
+  border-color: #14707e;
+  color: #fff;
+}
+.btn-outline-primary {
+  color: #1C9AAD;
+  border-color: #1C9AAD;
+}
+.btn-outline-primary:hover {
+  background-color: #1C9AAD;
+  border-color: #1C9AAD;
+  color: #fff;
+}
+.bg-primary {
+  background-color: #1C9AAD !important;
+}
+.text-primary {
+  color: #1C9AAD !important;
+}
+.text-info {
+  color: #1C6CAD !important;
+}
+.border-primary {
+  border-color: #1C9AAD !important;
+}
+.bs-icon-primary {
+  background-color: #1C9AAD;
+}
+
 /* body {
   color: #222;
   font-family: sans-serif;

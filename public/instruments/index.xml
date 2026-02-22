@@ -4,7 +4,8 @@
     <title>Crucible Data Platform</title>
     <link>https://crucible.lbl.gov/instruments/</link>
     <description>Recent content on Crucible Data Platform</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://crucible.lbl.gov/instruments/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://crucible.lbl.gov/instruments/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
