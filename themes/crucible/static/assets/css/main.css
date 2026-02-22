@@ -11,23 +11,28 @@
 }
 
 .btn-primary {
-  background-color: #1C9AAD;
-  border-color: #1C9AAD;
-  color: #fff;
+  background-color: #1C9AAD !important;
+  border-color: #1C9AAD !important;
+  color: #fff !important;
 }
-.btn-primary:hover {
-  background-color: #167a8a;
-  border-color: #14707e;
-  color: #fff;
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active {
+  background-color: #167a8a !important;
+  border-color: #14707e !important;
+  color: #fff !important;
 }
 .btn-outline-primary {
-  color: #1C9AAD;
-  border-color: #1C9AAD;
+  color: #1C9AAD !important;
+  border-color: #1C9AAD !important;
 }
-.btn-outline-primary:hover {
-  background-color: #1C9AAD;
-  border-color: #1C9AAD;
-  color: #fff;
+.btn-outline-primary:hover,
+.btn-outline-primary:focus,
+.btn-outline-primary:active {
+  background-color: #1C9AAD !important;
+  border-color: #1C9AAD !important;
+  color: #fff !important;
 }
 .bg-primary {
   background-color: #1C9AAD !important;
@@ -42,7 +47,19 @@
   border-color: #1C9AAD !important;
 }
 .bs-icon-primary {
-  background-color: #1C9AAD;
+  background-color: #1C9AAD !important;
+}
+a {
+  color: #1C9AAD;
+}
+a:hover {
+  color: #167a8a;
+}
+.navbar .nav-link {
+  color: #1C9AAD !important;
+}
+.navbar .nav-link:hover {
+  color: #167a8a !important;
 }
 
 /* body {
