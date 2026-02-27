@@ -3,7 +3,7 @@
 
 [pypi]
 url   = "https://pypi.org/project/nano-crucible/"
-label = "Install the Client"
+label = "Install the Client!"
 
 [graph_explorer]
 url   = "https://crucible-graph-explorer-776258882599.us-central1.run.app/"
