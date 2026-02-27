@@ -17,17 +17,17 @@ data-bs-theme="light">
           <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
           <li class="nav-item dropdown"><a class="dropdown-toggle nav-link" aria-expanded="false" data-bs-toggle="dropdown" href="#">Get Started</a>
             <div class="dropdown-menu">
-              <a class="dropdown-item" href="https://pypi.org/project/nano-crucible/">Install the Client</a>
-              <a class="dropdown-item" href="https://crucible-graph-explorer-776258882599.us-central1.run.app/">Explore Your Data</a>
-              <a class="dropdown-item" href="https://github.com/MolecularFoundryCrucible/nano-crucible">Contribute to the Project</a>
-              <a class="dropdown-item" href="https://foundry.lbl.gov/user-program/applying-for-access/">Submit a User Proposal</a>
+              <a class="dropdown-item" href="{{ .Site.Data.links.pypi.url }}">Install the Client</a>
+              <a class="dropdown-item" href="{{ .Site.Data.links.graph_explorer.url }}">Explore Your Data</a>
+              <a class="dropdown-item" href="{{ .Site.Data.links.github.url }}">Contribute to the Project</a>
+              <a class="dropdown-item" href="{{ .Site.Data.links.user_proposal.url }}">Submit a User Proposal</a>
               <a class="dropdown-item" href="/demos/">Demos</a>
             </div>
           </li>
           <li class="nav-item dropdown"><a class="dropdown-toggle nav-link" aria-expanded="false" data-bs-toggle="dropdown" href="#">Software</a>
             <div class="dropdown-menu">
-              <a class="dropdown-item" href="https://github.com/MolecularFoundryCrucible/nano-crucible">Crucible</a>
-              <a class="dropdown-item" href="http://www.scopefoundry.org">ScopeFoundry</a></div>
+              <a class="dropdown-item" href="{{ .Site.Data.links.github.url }}">Crucible</a>
+              <a class="dropdown-item" href="{{ .Site.Data.links.scopefoundry.url }}">ScopeFoundry</a></div>
             </li>
             
             <li class="nav-item"><a class="nav-link" href="/about">About</a></li>

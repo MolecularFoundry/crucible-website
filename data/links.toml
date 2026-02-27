@@ -1,0 +1,38 @@
+# ── External Links ──────────────────────────────────────
+# Edit URLs here, then run `hugo` to rebuild the site.
+
+[pypi]
+url   = "https://pypi.org/project/nano-crucible/"
+label = "Install the Client"
+
+[graph_explorer]
+url   = "https://crucible-graph-explorer-776258882599.us-central1.run.app/"
+label = "Explore Your Data"
+
+[github]
+url   = "https://github.com/MolecularFoundryCrucible/nano-crucible"
+label = "Contribute to the Project"
+
+[user_proposal]
+url   = "https://foundry.lbl.gov/user-program/applying-for-access/"
+label = "Submit a User Proposal"
+
+[scopefoundry]
+url   = "http://www.scopefoundry.org"
+label = "ScopeFoundry"
+
+[discord]
+url   = "https://discord.gg/5PqS5Bt2"
+label = "Join our Discord!"
+
+[api_docs]
+url   = "https://crucible.lbl.gov/api/v1/docs"
+label = "API Documentation"
+
+[foundry]
+url   = "https://foundry.lbl.gov"
+label = "Molecular Foundry"
+
+[android_app]
+url   = "https://github.com/roncofaber/crucible-lens/releases/latest"
+label = "Android App"

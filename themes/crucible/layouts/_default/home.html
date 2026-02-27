@@ -6,7 +6,7 @@
           <span style="color: rgb(0, 0, 0);">Crucible -- named for the melting pot used in foundries of yore -- is a unified data-management and computational system at the Molecular Foundry.</span></p>
           <a class="btn btn-primary btn-lg" role="button" href="/about">Learn More</a>
           <a class="btn btn-primary btn-lg" role="button" href="/demos/">Demos</a>
-          <a class="btn btn-primary btn-lg" role="button" href="https://discord.gg/5PqS5Bt2">Join our Discord!</a>
+          <a class="btn btn-primary btn-lg" role="button" href="{{ .Site.Data.links.discord.url }}">Join our Discord!</a>
     </div>
   </section>
 
@@ -18,7 +18,7 @@
             <div class="col-md-8 mx-auto text-center">
                 <h2 class="text-uppercase fw-bold">Crucible Graph Explorer</h2>
                 <p class="my-3">Interactive graph-based explorer for browsing and discovering relationships across Crucible datasets.</p>
-                <a class="btn btn-primary btn-lg" role="button" href="https://crucible-graph-explorer-776258882599.us-central1.run.app/">Launch Graph Explorer</a>
+                <a class="btn btn-primary btn-lg" role="button" href="{{ .Site.Data.links.graph_explorer.url }}">Launch Graph Explorer</a>
             </div>
         </div>
     </div>
@@ -33,8 +33,8 @@
                         <h5 class="card-title fw-bold">nano-crucible</h5>
                         <p class="card-text small">Python client for the Crucible Data Platform. Upload, query, and manage your datasets programmatically.</p>
                         <code class="d-block mb-3 small">pip install nano-crucible</code>
-                        <a class="btn btn-primary btn-sm me-1" role="button" href="https://pypi.org/project/nano-crucible/">PyPI</a>
-                        <a class="btn btn-primary btn-sm" role="button" href="https://github.com/MolecularFoundryCrucible/nano-crucible">GitHub</a>
+                        <a class="btn btn-primary btn-sm me-1" role="button" href="{{ .Site.Data.links.pypi.url }}">PyPI</a>
+                        <a class="btn btn-primary btn-sm" role="button" href="{{ .Site.Data.links.github.url }}">GitHub</a>
                     </div>
                 </div>
             </div>
@@ -44,7 +44,7 @@
                     <div class="card-body">
                         <h5 class="card-title fw-bold">Crucible Lens</h5>
                         <p class="card-text small">Android app for browsing your data on the Crucible Data Platform.</p>
-                        <a class="btn btn-primary btn-sm" role="button" href="https://github.com/roncofaber/nano-crucible-app">Android App</a>
+                        <a class="btn btn-primary btn-sm" role="button" href="{{ .Site.Data.links.android_app.url }}">Android App</a>
                     </div>
                 </div>
             </div>
@@ -54,7 +54,7 @@
                     <div class="card-body">
                         <h5 class="card-title fw-bold">ScopeFoundry</h5>
                         <p class="card-text small">Python platform for controlling custom laboratory experiments. Automatic Upload to Crucible plug-in available.</p>
-                        <a class="btn btn-primary btn-sm" role="button" href="http://www.scopefoundry.org">ScopeFoundry Site</a>
+                        <a class="btn btn-primary btn-sm" role="button" href="{{ .Site.Data.links.scopefoundry.url }}">ScopeFoundry Site</a>
                     </div>
                 </div>
             </div>
@@ -64,8 +64,8 @@
     <!-- Collaborate With Us - teal band -->
     <div class="text-white text-center p-5 mt-4" style="background: #1C9AAD;">
         <h2 class="fw-bold mb-3 text-white">Collaborate With Us</h2>
-        <p class="mb-4">Want to collaborate with us, extend the platform to new use cases, or get integration support? Submit a user proposal through the <a class="text-white text-decoration-underline" href="https://foundry.lbl.gov">Molecular Foundry</a>.</p>
-        <a class="btn btn-light fs-5 py-2 px-4" role="button" href="https://foundry.lbl.gov/user-program/applying-for-access/">Submit a User Proposal</a>
+        <p class="mb-4">Want to collaborate with us, extend the platform to new use cases, or get integration support? Submit a user proposal through the <a class="text-white text-decoration-underline" href="{{ .Site.Data.links.foundry.url }}">Molecular Foundry</a>.</p>
+        <a class="btn btn-light fs-5 py-2 px-4" role="button" href="{{ .Site.Data.links.user_proposal.url }}">Submit a User Proposal</a>
     </div>
 
     <!-- HPC ribbon - light -->
