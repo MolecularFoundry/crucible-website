@@ -3,7 +3,7 @@
 
 [pypi]
 url   = "https://pypi.org/project/nano-crucible/"
-label = "Install the Client!"
+label = "Install the Client"
 
 [graph_explorer]
 url   = "https://crucible-graph-explorer-776258882599.us-central1.run.app/"
@@ -30,7 +30,7 @@ url   = "https://crucible.lbl.gov/api/v1/docs"
 label = "API Documentation"
 
 [foundry]
-url   = "https://foundry.lbl.gov"
+url   = "https://www.google.com"
 label = "Molecular Foundry"
 
 [android_app]
