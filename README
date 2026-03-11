@@ -6,3 +6,12 @@ This a Hugo website for Crucible
 /content is where markdown pages live
 /themes/crucible is the Hugo theme based off of the /export site
     currently index.html, about.html, hpc.html are fully defined by template html rather than content md
+
+
+To make updates to the website: 
+1) Checkout a new branch
+2) Make the updates (external links can be updated in data/links.toml)
+3) Run hugo build locally
+4) Push the changes to github 
+5) Create a PR to main
+6) Changes should be reflected on the website within 5 minutes of the PR approval
